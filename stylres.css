@@ -1,0 +1,134 @@
+body {
+  color: black ;
+  background-color:  #ffffb3;
+  font-size: 18px; 
+  text-align: center;
+  background: #8497fa; 
+    background: -webkit-linear-gradient(#ffffb3, #8497fa); 
+    background: -o-linear-gradient(#ffffb3, #8497fa); 
+    background: -moz-linear-gradient(r#ffffb3, #8497fa);
+    background: linear-gradient(#ffffb3, #8497fa);  
+
+}
+
+blockquote {
+  text-decoration: underline;  
+}
+
+form { 
+  background-color: #8497fa;
+  width: 350px;
+  border: 5px dotted blue;
+  border- raduius: 10px;
+  text-align: center;
+  margin: auto;
+    
+ }
+
+legend {
+  background-color: #8497fa;
+  border: #ffffb3;
+  text-align: center;
+	
+}
+
+input[type=button] {width:100px; 
+height:100px; 
+background-color:#9137ac;
+border:1px solid #9137ac; 
+color:#fff;
+font-size:1.6em;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 10px rgba(0,0,0, .75);
+box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+background: -webkit-linear-gradient(#9137ac, #482054); 
+    background: -o-linear-gradient(#9137ac, #482054); 
+    background: -moz-linear-gradient(r#9137ac, #482054);
+    background: linear-gradient(#9137ac, #482054); }
+
+input#round:hover{
+background:#9137ac;
+border:1px solid #9137ac;
+-webkit-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+-moz-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+}
+
+
+
+@font-face {
+    font-family: 'cantarelloblique';
+    src: url('Cantarell-Oblique-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+h1 {
+  font-family: 'cantarelloblique';
+}
+
+p {
+    border: 5px dotted blue;
+    padding: 20px;
+    width: 275px;
+    border-radius: 10px;
+    border-top-right-radius: 10px 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px 5px;
+    margin: auto;
+    
+
+}
+	
+
+
+
+#nav {
+	background-color: #ffe699;
+	padding: 5px;
+	margin: 5px;
+  border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow:-5px -5px;
+    text-align: center;
+}
+
+li { 
+  display: inline;
+  padding: 5px;
+}
+
+.background {  background-image: url('//orig06.deviantart.net/d270/f/2013/183/7/1/cute_cupcake_png__2__by_kaniaeditings-d6bmnq0.png');
+       opacity: 0.5;
+
+}
+
+img.align-center {  background-image: url('//orig06.deviantart.net/d270/f/2013/183/7/1/cute_cupcake_png__2__by_kaniaeditings-d6bmnq0.png');
+
+ }
+
+  
+ #grad {
+  
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}
+
+@keyframes animateBorder {
+  to {
+    outline-color: #EA3556;
+    box-shadow: 0 0 0 6px yellow;
+  }
+}
