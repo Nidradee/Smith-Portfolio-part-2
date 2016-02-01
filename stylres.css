@@ -22,8 +22,27 @@ form {
   border- raduius: 10px;
   text-align: center;
   margin: auto;
-    
- }
+  border- raduius: 10px;
+    -webkit-animation-name: form; 
+    -webkit-animation-duration: 4s; 
+    animation-name: form;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+
+@-webkit-keyframes form {
+    from {border: 5px dotted blue;}
+    to {border: 5px dotted aqua;}
+}
+
+
+@keyframes form {
+    from {border: 5px dotted blue;}
+    to {border: 5px dotted aqua;}
+  }
+  
+
 
 legend {
   background-color: #8497fa;
@@ -32,18 +51,18 @@ legend {
 	
 }
 
-input[type=button] {width:100px; 
-height:100px; 
+input[type=button] {width:50px; 
+height:50px; 
 background-color:#9137ac;
 border:1px solid #9137ac; 
 color:#fff;
-font-size:1.6em;
+font-size:.5em;
 -webkit-border-radius: 50px;
 -moz-border-radius: 50px;
 border-radius: 50px;
--webkit-box-shadow: 0 0 10px rgba(0,0,0, .75);
--moz-box-shadow: 0 0 10px rgba(0,0,0, .75);
-box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0, .50);
+-moz-box-shadow: 0 0 10px rgba(0,0,0, .50);
+box-shadow: 2px 2px 15px rgba(0,0,0, .50);
 background: -webkit-linear-gradient(#9137ac, #482054); 
     background: -o-linear-gradient(#9137ac, #482054); 
     background: -moz-linear-gradient(r#9137ac, #482054);
@@ -52,9 +71,9 @@ background: -webkit-linear-gradient(#9137ac, #482054);
 input#round:hover{
 background:#9137ac;
 border:1px solid #9137ac;
--webkit-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
--moz-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+-webkit-box-shadow: 0px 0px 5px rgba(0,0,0, .50);
+-moz-box-shadow: 0px 0px 5px rgba(0,0,0, .50);
+box-shadow: 0px 0px 5px rgba(0,0,0, .50);
 }
 
 
@@ -73,7 +92,7 @@ h1 {
 }
 
 p {
-    border: 5px dotted blue;
+    border: 5px dotted purple;
     padding: 20px;
     width: 275px;
     border-radius: 10px;
@@ -82,9 +101,26 @@ p {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px 5px;
     margin: auto;
-    
-
+    text-align: center;
+     -webkit-animation-name: p; 
+    -webkit-animation-duration: 4s; 
+    animation-name: p;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
 }
+
+
+@-webkit-keyframes p {
+    from {border: 5px dotted purple;}
+    to {border: 5px dotted pink;}
+}
+
+
+@keyframes p {
+    from {border: 5px dotted purple;}
+    to {border: 5px dotted pink;}
+  }
+    
 	
 
 
@@ -117,14 +153,7 @@ img.align-center {  background-image: url('//orig06.deviantart.net/d270/f/2013/1
  }
 
   
- #grad {
-  
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
-}
+ 
 
 @keyframes animateBorder {
   to {
